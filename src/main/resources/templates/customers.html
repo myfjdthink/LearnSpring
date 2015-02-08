@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Serving Web Content</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <p th:text="'Find:'"/>
+    <table>
+        <tr th:each="customer : ${customers}" class="row">
+            <td th:text="${customer}" />
+        </tr>
+    </table>
+    </body>
+</html>
