@@ -12,7 +12,7 @@ cd 到项目目录（build.gradle 文件所在目录）。
 
     gradle build
  
- build 过程中会下载工程所需的 Jar 包，耐心等待。
+ build 过程中会下载工程所需的 Jar 包，耐心等待。已经加入了开源中国提供的国内 Maven 库， 会快一点点。
  build 好之后：
 
     gradle bootRun
